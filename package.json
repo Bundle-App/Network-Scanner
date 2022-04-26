@@ -10,6 +10,8 @@
   "author": "en1tan <asajuenitan@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "0.27.1"
+    "axios": "0.27.1",
+    "dotenv": "16.0.0",
+    "express": "4.18.0"
   }
 }
