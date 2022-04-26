@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "en1tan <asajuenitan@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.27.1"
+  }
 }
