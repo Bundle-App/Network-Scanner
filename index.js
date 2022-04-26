@@ -1,3 +1,7 @@
+import { port, etherScanUrl, etherScanApiToken } from "./config";
+
+
+
 const getTransactions = (networksTransactions) => {
   // filter through the transactions
   const btc = networksTransactions.filter(
@@ -16,10 +20,14 @@ const getTransactions = (networksTransactions) => {
   return { btc, eth, usdt, trx };
 };
 
+
 const getEth = async (ethTrx) => {
   const res = "";
   console.log(res);
 };
+
+
+
 const getBtc = async (btcTrx) => {
   const res = "";
   console.log(res);
